@@ -14,5 +14,5 @@ spec:
     - protocol: TCP
       port: 3333         # External port
       targetPort: 3333  # Container's port
-      nodePort: 30001   # The port on the node (if not specified, Kubernetes will assign one)
+      nodePort: 30003   # The port on the node (if not specified, Kubernetes will assign one)
 
