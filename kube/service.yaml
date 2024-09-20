@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: crud-app-service
-  namespace: stage
+  namespace: prod
   labels:
     role: api
     env: demo
